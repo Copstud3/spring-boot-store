@@ -3,7 +3,7 @@ spring:
     name: store
   jwt:
     secret: ${JWT_SECRET}
-    accessTokenExpiration: 7200 # 2h change back to 5m or 300
+    accessTokenExpiration: 900 # 2h change back to 5m or 300
     refreshTokenExpiration: 604800 # 7d
   profiles:
     active: dev
